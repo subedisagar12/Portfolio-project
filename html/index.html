@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  
+    <div id="main-section">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-md-5">
+                    <img src="../img/person.jpeg">
+                </div>
+
+                <div class="col-lg-8 col-md-7">
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row justify-content-between align-items-center p-4 bg-dark text-white">
+                            <h4 class="display-4">John Doe</h4>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            
+                            <a href="#"><i class="fa fa-github"></i></a>
+                            
+                        </div>
+
+                        <div class="bg-light p-4 text-primary">
+                            <p class="lead">Experienced Frontend Developer</p>
+                        </div>
+
+                        <div class="d-flex flex-row align-items-stretch text-white text-center">
+                            <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
+                                <i class="fa fa-home fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Home</span>
+                              </div>
+
+                              <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+                                <i class="fa fa-graduation-cap fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Resume</span>
+                              </div>
+                              <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+                                <i class="fa fa-folder-open fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Work</span>
+                              </div>
+                              <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+                                <i class="fa fa-envelope fa-2x d-block"></i>
+                                <span class="d-none d-sm-block">Contact</span>
+                              </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Home section -->
+            <div id="home" class="collapse show">
+                <div class="card card-body py-3 bg-primary text-white">
+                    <h2>Welcome to my page.</h2>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam perferendis assumenda suscipit magni repellendus. Cupiditate.</p>
+                </div>
+
+                <div class="card card-body py-5">
+                    <h3>My Skills</h3>
+                    <hr>
+                    <h5>HTML 5</h5>
+                    <div class="progress mb-5">
+                        <div class="progress-bar bg-success" style="width:100%;"></div>
+                    </div>
+
+                    <h5>CSS</h5>
+                    <div class="progress mb-5">
+                        <div class="progress-bar bg-success" style="width:90%;"></div>
+                    </div>
+
+                    <h5>Bootsrap 4</h5>
+                    <div class="progress mb-5">
+                        <div class="progress-bar bg-success" style="width:75%;"></div>
+                    </div>
+
+                    <h5>Javascript & Jquery</h5>
+                    <div class="progress mb-5">
+                        <div class="progress-bar bg-success" style="width:70%;"></div>
+                    </div>
+
+                    <h5>Adobe Photoshop</h5>
+                    <div class="progress mb-5">
+                        <div class="progress-bar bg-success" style="width:77%;"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resume section -->
+                <div id="resume" class="collapse">
+                    <div class="card card-body bg-success py-3 text-white">
+                        <h3>My Resume</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ducimus. Ad, enim quasi. Similique, dolores.</p>
+                    </div>
+                    <div class="card card-body py-5">
+                        <h4>Where have I worked?</h4>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio error, repellat libero ut cupiditate debitis.</p>
+
+                        <div class="card-deck">
+                            <div class="card">
+                                <div class="card-body">
+                                <h4 class="card-title">123 Design</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, obcaecati!</p>
+
+                                <p class="bg-dark text-white mb-3 p-3">Position: Assistant web designer</p>
+                                <p class="bg-dark text-white mb-3 p-3">Phone:(+977)981234752</p>
+                                    <div class="card-footer">
+                                        <h6 class="text-muted">Date:2006-2008</h4>
+                                    </div>
+                            </div>
+                                
+                            </div>
+
+
+                            <div class="card">
+                                    <div class="card-body">
+                                    <h4 class="card-title">Tech US</h4>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, obcaecati!</p>
+    
+                                    <p class="bg-dark text-white mb-3 p-3">Position: Web designer</p>
+                                    <p class="bg-dark text-white mb-3 p-3">Phone:(+977)981574742</p>
+                                        <div class="card-footer">
+                                            <h6 class="text-muted">Date:2009-2016</h4>
+                                        </div>
+                                </div>
+                                   
+
+                            
+                                </div>
+
+                                <div class="card">
+                                        <div class="card-body">
+                                        <h4 class="card-title">Neosphere</h4>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, obcaecati!</p>
+        
+                                        <p class="bg-dark text-white mb-3 p-3">Position: Senior Web Designer</p>
+                                        <p class="bg-dark text-white mb-3 p-3">Phone:(+977)981234752</p>
+                                            <div class="card-footer">
+                                                <h6 class="text-muted">Date:2016-present</h4>
+                                            </div>
+                                    </div>
+                                        
+                                    </div>
+
+                                   
+
+                        </div>
+                    </div>
+                
+                </div>
+
+
+                <!-- Contact Section -->
+                <div class="collapse" id="contact">
+                <div class="card card-body bg-danger py-3 text-white">
+                    <h3>Contact Details</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magnam, architecto enim culpa quasi perferendis.</p>
+                </div>
+
+                    <div class="card card-body p-5">
+                        <h4>Get In Touch</h4>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, culpa.</p>
+
+                            <div class="card-deck">
+                                <div class="card" style="background: #b23121; color: white;">
+                                    <div class="card-body">
+                                        <h4 class="card-title"><i class="fa fa-envelope"></i> Email Address</h4>
+                                        <div class="card-text bg-light text-dark  p-3"><p class="lead">johndoe756@gmail.com</p></div>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="background: #25D366; color: white;">
+                                        <div class="card-body">
+                                            <h4 class="card-title"><i class="fa fa-whatsapp"></i> Whatsapp</h4>
+                                            <div class="card-text bg-light text-dark  p-3"><p class="lead">(+977)-9842561272</p></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card" style="background: #665CAC; color: white;">
+                                            <div class="card-body">
+                                                <h4 class="card-title"><i class="fa fa-phone"></i> Viber</h4>
+                                                <div class="card-text bg-light text-dark  p-3"><p class="lead">(+977)-9852147632</p></div>
+                                            </div>
+                                        </div>
+                            </div>
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+
+    <footer id="footer" class="w-100 bg-dark text-white mt-1">
+        <button class="btn btn-sm btn-light"><i class="fa fa-cloud"></i> Download my CV</button>
+    </footer>
+    
+
+ 
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+        $('.port-item').click(function () {
+      $('.collapse').collapse('hide');
+    });
+    </script>
+
+</body>
+</html>
